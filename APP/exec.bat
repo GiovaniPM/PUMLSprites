@@ -62,8 +62,8 @@ for %%f in (*.png) do (
     del env_vars.bat
     del input.png
     
-    move /Y %%f .\files\.
-    move /Y !filename!.puml .\files\.
+    move /Y %%f ..\files\.
+    move /Y !filename!.puml ..\files\.
     
     echo %_fBBlue%%_bBlack%=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=%_RESET%
 )
