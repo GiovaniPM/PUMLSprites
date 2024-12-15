@@ -94,7 +94,8 @@
   "format": "<new_format>"
 }
 ```
-**Note**: `<new_format>` can be `JPG`, `PNG`, `BMP`, or `GIF`.
+> [!TIP]
+>**Note**: `<new_format>` can be `JPG`, `PNG`, `BMP`, or `GIF`.
 
 ### POST /dimensions
 
