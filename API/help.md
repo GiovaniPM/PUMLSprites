@@ -19,10 +19,7 @@
 
 ### POST /grayscale
 
-**Description**: Convert image to grayscale.
-**Method**: `POST`
-**Request URL**: `/grayscale`
-**Request Body**:
+**Description**: Convert image to grayscale.<br>**Method**: `POST`<br>**Request URL**: `/grayscale`<br>**Request Body**:
 ```json
 {
   "image": "<base64_image>"
@@ -31,10 +28,7 @@
 
 ### POST /no_transparency
 
-**Description**: Remove transparency from image.
-**Method**: `POST`
-**Request URL**: `/no_transparency`
-**Request Body**:
+**Description**: Remove transparency from image.<br>**Method**: `POST`<br>**Request URL**: `/no_transparency`<br>**Request Body**:
 ```json
 {
   "image": "<base64_image>"
@@ -43,10 +37,7 @@
 
 ### POST /sprite_txt
 
-**Description**: Convert image to text representation.
-**Method**: `POST`
-**Request URL**: `/sprite_txt`
-**Request Body**:
+**Description**: Convert image to text representation.<br>**Method**: `POST`<br>**Request URL**: `/sprite_txt`<br>**Request Body**:
 ```json
 {
   "image": "<base64_image>"
@@ -55,10 +46,7 @@
 
 ### POST /negative
 
-**Description**: Convert image to negative.
-**Method**: `POST`
-**Request URL**: `/negative`
-**Request Body**:
+**Description**: Convert image to negative.<br>**Method**: `POST`<br>**Request URL**: `/negative`<br>**Request Body**:
 ```json
 {
   "image": "<base64_image>"
@@ -67,10 +55,7 @@
 
 ### POST /black_white
 
-**Description**: Convert image to black and white.
-**Method**: `POST`
-**Request URL**: `/black_white`
-**Request Body**:
+**Description**: Convert image to black and white.<br>**Method**: `POST`<br>**Request URL**: `/black_white`<br>**Request Body**:
 ```json
 {
   "image": "<base64_image>"
@@ -79,10 +64,7 @@
 
 ### POST /convert
 
-**Description**: Convert image format.
-**Method**: `POST`
-**Request URL**: `/convert`
-**Request Body**:
+**Description**: Convert image format.<br>**Method**: `POST`<br>**Request URL**: `/convert`<br>**Request Body**:
 ```json
 {
   "image": "<base64_image>",
@@ -94,10 +76,7 @@
 
 ### POST /dimensions
 
-**Description**: Get image dimensions and format.
-**Method**: POST
-**Request URL**: `/dimensions`
-**Request Body**:
+**Description**: Get image dimensions and format.<br>**Method**: POST<br>**Request URL**: `/dimensions`<br>**Request Body**:
 ```json
 {
   "image": "<base64_image>"
@@ -106,10 +85,7 @@
 
 ### POST /enhance
 
-**Description**: Enhance image by adjusting contrast and sharpness.
-**Method**: `POST`
-**Request URL**: `/enhance`
-**Request Body**:
+**Description**: Enhance image by adjusting contrast and sharpness.<br>**Method**: `POST`<br>**Request URL**: `/enhance`<br>**Request Body**:
 ```json
 {
   "image": "<base64_image>"
@@ -118,10 +94,7 @@
 
 ### POST /emboss
 
-**Description**: Apply emboss effect to image.
-**Method**: `POST`
-**Request URL**: `/emboss`
-**Request Body**:
+**Description**: Apply emboss effect to image.<br>**Method**: `POST`<br>**Request URL**: `/emboss`<br>**Request Body**:
 ```json
 {
   "image": "<base64_image>"
@@ -130,10 +103,7 @@
 
 ### POST /reduce_colors
 
-**Description**: Reduce the number of colors in image.
-**Method**: `POST`
-**Request URL**: `/reduce_colors`
-**Request Body**:
+**Description**: Reduce the number of colors in image.<br>**Method**: `POST`<br>**Request URL**: `/reduce_colors`<br>**Request Body**:
 ```json
 {
   "image": "<base64_image>",
