@@ -4,16 +4,11 @@
 
 ### GET /
 
-**Description**: Home page.
-**Method**: `GET`
-**Request URL**: `/`
+**Description**: Home page.<br>**Method**: `GET`<br>**Request URL**: `/`
 
 ### POST /resize
 
-**Description**: Resize image.
-**Method**: `POST`
-**Request URL**: `/resize`
-**Request Body**:
+**Description**: Resize image.<br>**Method**: `POST`<br>**Request URL**: `/resize`<br>**Request Body**:
 ```json
 {
   "image": "<base64_image>",
