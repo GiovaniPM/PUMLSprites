@@ -5,7 +5,7 @@
 1. [API help](#_toc001)
 1. [Image Resize](#_toc002)
 1. [Image to Grayscale](#_toc003)
-1. [Iamge Remove Transparency](#_toc004)
+1. [Image Remove Transparency](#_toc004)
 1. [Image to Sprite TXT](#_toc005)
 1. [Image Negative](#_toc006)
 1. [Image to Black and White](#_toc007)
