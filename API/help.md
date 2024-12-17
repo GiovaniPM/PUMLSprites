@@ -16,6 +16,16 @@
   "height": <new_height>
 }
 ```
+>**Example**:
+>```python
+>curl --location '<server>:<port>/resize' \
+>--header 'Content-Type: application/json' \
+>--data '{
+>    "image": "<base64_image>",
+>    "width": <new_width>,
+>    "height": <new_height>
+>}'
+>```
 
 ### POST /grayscale
 
@@ -25,6 +35,14 @@
   "image": "<base64_image>"
 }
 ```
+>**Example**:
+>```python
+>curl --location '<server>:<port>/grayscale' \
+>--header 'Content-Type: application/json' \
+>--data '{
+>    "image": "<base64_image>"
+>}'
+>```
 
 ### POST /no_transparency
 
@@ -34,6 +52,14 @@
   "image": "<base64_image>"
 }
 ```
+>**Example**:
+>```python
+>curl --location '<server>:<port>/no_transparency' \
+>--header 'Content-Type: application/json' \
+>--data '{
+>    "image": "<base64_image>"
+>}'
+>```
 
 ### POST /sprite_txt
 
@@ -43,6 +69,14 @@
   "image": "<base64_image>"
 }
 ```
+>**Example**:
+>```python
+>curl --location '<server>:<port>/sprite_txt' \
+>--header 'Content-Type: application/json' \
+>--data '{
+>    "image": "<base64_image>"
+>}'
+>```
 
 ### POST /negative
 
@@ -52,6 +86,14 @@
   "image": "<base64_image>"
 }
 ```
+>**Example**:
+>```python
+>curl --location '<server>:<port>/negative' \
+>--header 'Content-Type: application/json' \
+>--data '{
+>    "image": "<base64_image>"
+>}'
+>```
 
 ### POST /black_white
 
@@ -61,6 +103,14 @@
   "image": "<base64_image>"
 }
 ```
+>**Example**:
+>```python
+>curl --location '<server>:<port>/black_white' \
+>--header 'Content-Type: application/json' \
+>--data '{
+>    "image": "<base64_image>"
+>}'
+>```
 
 ### POST /convert
 
@@ -74,6 +124,16 @@
 > [!TIP]
 >**Note**: `<new_format>` can be `JPG`, `PNG`, `BMP`, or `GIF`.
 
+>**Example**:
+>```python
+>curl --location '<server>:<port>/convert' \
+>--header 'Content-Type: application/json' \
+>--data '{
+>    "image": "<base64_image>",
+>    "format": "<new_format>"
+>}'
+>```
+
 ### POST /dimensions
 
 **Description**: Get image dimensions and format.<br>**Method**: POST<br>**Request URL**: `/dimensions`<br>**Request Body**:
@@ -82,6 +142,14 @@
   "image": "<base64_image>"
 }
 ```
+>**Example**:
+>```python
+>curl --location '<server>:<port>/dimensions' \
+>--header 'Content-Type: application/json' \
+>--data '{
+>    "image": "<base64_image>"
+>}'
+>```
 
 ### POST /enhance
 
@@ -91,6 +159,14 @@
   "image": "<base64_image>"
 }
 ```
+>**Example**:
+>```python
+>curl --location '<server>:<port>/enhance' \
+>--header 'Content-Type: application/json' \
+>--data '{
+>    "image": "<base64_image>"
+>}'
+>```
 
 ### POST /emboss
 
@@ -100,6 +176,14 @@
   "image": "<base64_image>"
 }
 ```
+>**Example**:
+>```python
+>curl --location '<server>:<port>/emboss' \
+>--header 'Content-Type: application/json' \
+>--data '{
+>    "image": "<base64_image>"
+>}'
+>```
 
 ### POST /reduce_colors
 
@@ -110,3 +194,12 @@
   "num_colors": <num_colors>
 }
 ```
+>**Example**:
+>```python
+>curl --location '<server>:<port>/reduce_colors' \
+>--header 'Content-Type: application/json' \
+>--data '{
+>    "image": "<base64_image>",
+>    "num_colors": <num_colors>
+>}'
+>```
