@@ -29,7 +29,7 @@ python "Image process.py"
 
 ### <a name="_toc001"></a>GET /[↩︎](#_toc000)
 
-**Description**: Home page.<br>**Method**: `GET`<br>**Request URL**: `/`
+**Description**: Home page (this help).<br>**Method**: `GET`<br>**Request URL**: `/`
 
 ### <a name="_toc002"></a>POST /resize[↩︎](#_toc000)
 
