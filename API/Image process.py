@@ -1,8 +1,8 @@
 from flask import Flask, request, jsonify, render_template
 from flask_cors import CORS
 from PIL import Image, ImageEnhance, ImageOps, ImageFilter
-import io
 import base64
+import io
 import os
 
 app = Flask(__name__)
