@@ -2,6 +2,7 @@
 
 ## <a name="_toc000"></a>Índice
 
+1. [Server](#_toc013)
 1. [API help](#_toc001)
 1. [Image Resize](#_toc002)
 1. [Image to Grayscale](#_toc003)
@@ -14,6 +15,15 @@
 1. [Image Enhance](#_toc010)
 1. [Image Emboss](#_toc011)
 1. [Image Reduce Number Colors](#_toc012)
+
+## Server
+
+### <a name="_toc013"></a>Image Processor[↩︎](#_toc000)
+
+**Description**: Flask API to process images.<br>**App**: `Image process.py`<br>**Sintaxe**:
+```python
+python "Image process.py"
+```
 
 ## Endpoints
 
