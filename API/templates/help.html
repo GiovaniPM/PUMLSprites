@@ -25,9 +25,16 @@
       <div class="crossnote markdown-preview  ">
       
 <h1 id="api-documentation">API Documentation </h1>
-<h2 id="a-name_toc000aíndice"><a name="_toc000" href=""></a>Índice </h2>
+<p><strong><a name="_toc000" href=""></a>Índice</strong></p>
 <ol>
-<li><a href="#_toc013">Server</a></li>
+<li><a href="#_toc015">Server</a>
+<ol>
+<li><a href="#_toc014">Server Configuration</a></li>
+<li><a href="#_toc013">Image Processor APP</a></li>
+</ol>
+</li>
+<li><a href="#_toc016">Endpoints</a>
+<ol>
 <li><a href="#_toc001">API help</a></li>
 <li><a href="#_toc002">Image Resize</a></li>
 <li><a href="#_toc003">Image to Grayscale</a></li>
@@ -41,11 +48,18 @@
 <li><a href="#_toc011">Image Emboss</a></li>
 <li><a href="#_toc012">Image Reduce Number Colors</a></li>
 </ol>
-<h2 id="server">Server </h2>
-<h3 id="a-name_toc013aimage-processor︎_toc000"><a name="_toc013" href=""></a>Image Processor<a href="#_toc000">↩︎</a> </h3>
+</li>
+</ol>
+<h2 id="a-name_toc015aserver︎_toc000"><a name="_toc015" href=""></a>Server<a href="#_toc000">↩︎</a> </h2>
+<h3 id="a-name_toc014aconfiguration︎_toc000"><a name="_toc014" href=""></a>Configuration<a href="#_toc000">↩︎</a> </h3>
+<h4 id="python">Python </h4>
+<p><a href="https://www.python.org/downloads/release/python-3126/"><img src="https://img.shields.io/badge/Python-3.12.6-brightgreen.svg?logo=python" alt="Python"></a></p>
+<h4 id="pip-support">PIP support </h4>
+<p><a href="https://flask.palletsprojects.com"><img src="https://img.shields.io/badge/Flask-3.0.0-brightgreen.svg?logo=flask" alt="Flask"></a> <a href="https://flask-cors.readthedocs.io/en/latest/"><img src="https://img.shields.io/badge/Flask_Cors-4.0.0-brightgreen.svg?logo=python" alt="Flask-Cors"></a> <a href="https://requests.readthedocs.io/en/latest/"><img src="https://img.shields.io/badge/requests-2.31.0-brightgreen.svg?logo=python" alt="Requests"></a> <a href="https://pillow.readthedocs.io/en/latest/"><img src="https://img.shields.io/badge/Pillow-10.1.0-brightgreen.svg?logo=python" alt="Pillow"></a></p>
+<h3 id="a-name_toc013aimage-processor-app︎_toc000"><a name="_toc013" href=""></a>Image Processor APP<a href="#_toc000">↩︎</a> </h3>
 <p><strong>Description</strong>: Flask API to process images.<br><strong>App</strong>: <code>Image process.py</code><br><strong>Sintaxe</strong>:</p>
 <pre data-role="codeBlock" data-info="python" class="language-python python"><code>python <span class="token string">"Image process.py"</span>
-</code></pre><h2 id="endpoints">Endpoints </h2>
+</code></pre><h2 id="a-name_toc016aendpoints︎_toc000"><a name="_toc016" href=""></a>Endpoints<a href="#_toc000">↩︎</a> </h2>
 <h3 id="a-name_toc001aget-︎_toc000"><a name="_toc001" href=""></a>GET /<a href="#_toc000">↩︎</a> </h3>
 <p><strong>Description</strong>: Home page (this help).<br><strong>Method</strong>: <code>GET</code><br><strong>Request URL</strong>: <code>/</code></p>
 <h3 id="a-name_toc002apost-resize︎_toc000"><a name="_toc002" href=""></a>POST /resize<a href="#_toc000">↩︎</a> </h3>

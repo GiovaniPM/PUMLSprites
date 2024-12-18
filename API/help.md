@@ -1,31 +1,44 @@
 # API Documentation
 
-## <a name="_toc000"></a>Índice
+**<a name="_toc000"></a>Índice**
 
-1. [Server](#_toc013)
-1. [API help](#_toc001)
-1. [Image Resize](#_toc002)
-1. [Image to Grayscale](#_toc003)
-1. [Image Remove Transparency](#_toc004)
-1. [Image to Sprite TXT](#_toc005)
-1. [Image Negative](#_toc006)
-1. [Image to Black and White](#_toc007)
-1. [Image Convert](#_toc008)
-1. [Image Dimension and Type](#_toc009)
-1. [Image Enhance](#_toc010)
-1. [Image Emboss](#_toc011)
-1. [Image Reduce Number Colors](#_toc012)
+1. [Server](#_toc015)
+    1. [Server Configuration](#_toc014)
+    1. [Image Processor APP](#_toc013)
+1. [Endpoints](#_toc016)
+    1. [API help](#_toc001)
+    1. [Image Resize](#_toc002)
+    1. [Image to Grayscale](#_toc003)
+    1. [Image Remove Transparency](#_toc004)
+    1. [Image to Sprite TXT](#_toc005)
+    1. [Image Negative](#_toc006)
+    1. [Image to Black and White](#_toc007)
+    1. [Image Convert](#_toc008)
+    1. [Image Dimension and Type](#_toc009)
+    1. [Image Enhance](#_toc010)
+    1. [Image Emboss](#_toc011)
+    1. [Image Reduce Number Colors](#_toc012)
 
-## Server
+## <a name="_toc015"></a>Server[↩︎](#_toc000)
 
-### <a name="_toc013"></a>Image Processor[↩︎](#_toc000)
+### <a name="_toc014"></a>Configuration[↩︎](#_toc000)
+
+#### Python
+
+[![Python](https://img.shields.io/badge/Python-3.12.6-brightgreen.svg?logo=python)](https://www.python.org/downloads/release/python-3126/)
+
+#### PIP support
+
+[![Flask](https://img.shields.io/badge/Flask-3.0.0-brightgreen.svg?logo=flask)](https://flask.palletsprojects.com) [![Flask-Cors](https://img.shields.io/badge/Flask_Cors-4.0.0-brightgreen.svg?logo=python)](https://flask-cors.readthedocs.io/en/latest/) [![Requests](https://img.shields.io/badge/requests-2.31.0-brightgreen.svg?logo=python)](https://requests.readthedocs.io/en/latest/) [![Pillow](https://img.shields.io/badge/Pillow-10.1.0-brightgreen.svg?logo=python)](https://pillow.readthedocs.io/en/latest/)
+
+### <a name="_toc013"></a>Image Processor APP[↩︎](#_toc000)
 
 **Description**: Flask API to process images.<br>**App**: `Image process.py`<br>**Sintaxe**:
 ```python
 python "Image process.py"
 ```
 
-## Endpoints
+## <a name="_toc016"></a>Endpoints[↩︎](#_toc000)
 
 ### <a name="_toc001"></a>GET /[↩︎](#_toc000)
 
