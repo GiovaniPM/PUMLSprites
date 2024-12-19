@@ -35,7 +35,7 @@
 
 **Description**: Flask API to process images.<br>**App**: `Image process.py`<br>**Sintaxe**:
 ```python
-python "Image process.py"
+python "Image Process.py"
 ```
 
 ## <a name="_toc016"></a>Endpoints[↩︎](#_toc000)
